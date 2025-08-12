@@ -21,6 +21,14 @@ import Header from "./Header";
 
 const projects = [
   {
+  title: "BiteCount",
+  description:
+    "A SaaS nutrition and calorie-tracking app built with the MERN stack. Log meals, view macronutrient summaries, and track insights in real-time.",
+  techIcons: [<FaReact />, <SiTailwindcss />, <SiMongodb />, <SiExpress />, <FaNodeJs />, <SiReacthottoast />],
+  link: "https://bitecount.vercel.app/",
+  github: "https://github.com/mdnazishpatel/BiteCount-frontend",
+},
+  {
     title: "Spiceditor",
     description: "A pic utre editor with a variety of filters and effects.",
     techIcons: [<FaHtml5 />, <FaCss3 />, <SiJavascript />],
@@ -186,3 +194,4 @@ export default function Projects() {
     </div>
   );
 }
+
